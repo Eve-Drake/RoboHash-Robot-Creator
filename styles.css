@@ -1,18 +1,19 @@
 *{
-    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    margin-left: 40%;
 }
 
 .robot-display{
     display: grid;
-    
-}
-
-.robot{
-    border: solid black 6px; 
-    border-radius: 15px;
-    margin: 10px;
-    width: 20vw;
-
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .robot img{
