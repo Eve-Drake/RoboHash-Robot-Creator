@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
@@ -10,7 +9,10 @@
     <h1>Create a Robot</h1>
     <div>
       <input id="robotName" type="text"/>
-      <button id="create">Create Robot</button>
+      <button onclick="addRobot()">Create Robot</button>
+      <div id="robotDisplay">
+        
+      </div>
     </div>
     <script src="/main.js"></script>
   </body>
