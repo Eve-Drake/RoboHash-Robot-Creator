@@ -4,10 +4,17 @@
 
 .robot-display{
     display: grid;
-    gap: 10px;
+    
 }
 
 .robot{
     border: solid black 6px; 
-    
+    border-radius: 15px;
+    margin: 10px;
+    width: 20vw;
+
+}
+
+.robot img{
+    width: 10vw;
 }

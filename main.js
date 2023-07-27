@@ -3,11 +3,20 @@ const robotDisplay = document.getElementById('robot-display')
 
 function addRobot(){
   if(robotName.value !== ''){
+    let robotBlock = document.createElement('div');
+    robotBlock.className = 'robot'
+
     let newRobot = document.createElement('img')
     newRobot.src = `https://robohash.org/${robotName.value}`
-    newRobot.className = 'robot'
     newRobot.alt = `Robot Named ${robotName.value}`
-    robotDisplay.appendChild(newRobot)
+
+    let newRobotDescription = document.createElement('p')
+    newRobotDescription.innerHTML = `A robot called ${robotName.value}`
+
+    robotBlock.appendChild(newRobot)
+    robotBlock.appendChild(newRobotDescription)
+    robotDisplay.appendChild(robotBlock)
+    
     robotName.value = ''
   }
   
