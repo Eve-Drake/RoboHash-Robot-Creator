@@ -1,0 +1,13 @@
+*{
+    
+}
+
+.robot-display{
+    display: grid;
+    gap: 10px;
+}
+
+.robot{
+    border: solid black 6px; 
+    
+}
