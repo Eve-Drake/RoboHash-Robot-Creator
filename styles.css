@@ -13,9 +13,18 @@ input{
 
 .robot-display{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    margin: 40%;
+    
+}
+
+.robot{
+height: 30vh;
+   border: 3px black solid;
+   margin: 3px;
+   width: 20vw;
+   padding: 15px;
 }
 
 .robot img{
-    width: 10vw;
+    width: 10vw; 
 }
